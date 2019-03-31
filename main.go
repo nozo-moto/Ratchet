@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nozo-moto/spanner-queryplan/pkg"
+	spanner "github.com/nozo-moto/spanner_queryplan/pkg"
 	"github.com/spf13/cobra"
 )
 
