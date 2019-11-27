@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	spanner "github.com/nozo-moto/spanner_queryplan/pkg"
+	spanner "github.com/nozo-moto/Ratchet/pkg"
 	"github.com/spf13/cobra"
 )
 
@@ -18,7 +18,7 @@ var (
 
 func main() {
 	rootCmd := &cobra.Command{
-		Use: "spanner_queryplan",
+		Use: "Ratchet",
 	}
 	queryPlanCmd := &cobra.Command{
 		Use:   "queryplan",

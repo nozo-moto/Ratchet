@@ -1,19 +1,20 @@
-# Spanner_QueryPlan
+# Ratchet
 
-# install 
-```
-go get github.com/nozo-moto/spanner_queryplan
+## Install
+
+```bash
+go get github.com/nozo-moto/Ratchet
 ```
 
-# run sample
+## Usage
 
 command
 
-``` bash
-spanner_queryplan --project $PROJECT k --instance $INSTANCE --database $DATABASE --credentials_file $YOUR_CREDENTIALS_FILE queryplan "SELECT * FROM hoge"
+```bash
+Ratchet --project $PROJECT k --instance $INSTANCE --database $DATABASE --credentials_file $YOUR_CREDENTIALS_FILE queryplan "SELECT * FROM hoge"
 ```
 
-result 
+result
 ```
 Run QueryPlan
 Query:  SELECT * FROM hoge
