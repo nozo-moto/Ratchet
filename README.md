@@ -1,3 +1,4 @@
+![](https://github.com/nozo-moto/Ratchet/workflows/CI/badge.svg)
 # Ratchet
 
 ## Install
